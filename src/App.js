@@ -23,7 +23,7 @@ function App() {
   return (
     <div className="App">
       <button onClick={() => setOpen(true)} className="open-modal-btn">
-        ✨ Открыть окно
+        ✨ Open modal window
       </button>
       <Modal open={open} setOpen={setOpen}>
         <img
@@ -32,7 +32,7 @@ function App() {
         />
       </Modal>
 
-      {/* Открыть без анимации */}
+      {/* Open modal window without animation */}
       {/* {open && (
         <div className="overlay">
           <div className="modal">
@@ -50,7 +50,7 @@ function App() {
         </div>
       )} */}
 
-      {/* Открыть с анимацией */}
+      {/* Open modal window with animation */}
       {/* {
         <div className={`overlay animated ${open ? "show" : ""}`}>
           <div className="modal">
